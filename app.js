@@ -2,7 +2,6 @@ const express = require('express')
 const data  = require('./jsonData')
 const route = require('./routes')
 const cors = require('cors')
-const { userMiddleware } = require('./middlewares')
 
 
 const app =express()
@@ -20,7 +19,6 @@ app.use(cors({
 }))
 
 
-app.use(userMiddleware)
 
 
 app.use('/api',route)
