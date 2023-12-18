@@ -25,11 +25,6 @@ app.use('/api',route)
 
 
 
-// middlewares - 
-// 1. application middleware
-// 2. routing middleware
-// 3. third party
-// 4. error handling middlewaare
 
 
 module.exports=app
